@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrianglePathCalculator", "TrianglePathCalculator\TrianglePathCalculator.csproj", "{FD71219B-C5B1-4F3F-83A4-96A333055770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrianglePathCalculatorTest", "TrianglePathCalculatorTest\TrianglePathCalculatorTest.csproj", "{8F744FCC-E589-431F-AFBE-93BB096F6296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD71219B-C5B1-4F3F-83A4-96A333055770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD71219B-C5B1-4F3F-83A4-96A333055770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD71219B-C5B1-4F3F-83A4-96A333055770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD71219B-C5B1-4F3F-83A4-96A333055770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F744FCC-E589-431F-AFBE-93BB096F6296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F744FCC-E589-431F-AFBE-93BB096F6296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F744FCC-E589-431F-AFBE-93BB096F6296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F744FCC-E589-431F-AFBE-93BB096F6296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C13BBA7-B40F-406F-B0FD-DE58FB6ED654}
+	EndGlobalSection
+EndGlobal
