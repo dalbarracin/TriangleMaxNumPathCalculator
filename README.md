@@ -22,7 +22,7 @@ Max sum: 16
 Path: 1, 8, 5, 2
 
 
-#How to execute
+# How to execute
 
 1. Starting a console application from Visual Studio 2019. Program.cs class contains an input, can be changed any time.
 2. Unittest from Visual Studio 2019. The next values has been covered so far:
@@ -37,7 +37,7 @@ Path: 1, 8, 5, 2
 - Verify parity (odd and even) given a integer value.
 
 
-#Approach and strategies used
+# Approach and strategies used
 
 The rules suggest a top-bottom solution and since the amount of items increase each next step. Maximum possible combinations identified was 2^n where n = max rows on triangle.
 
@@ -64,3 +64,5 @@ Valid path: 1 => 8 | 1 => 10
 Valid path: 1
 
 Even, when having 1,2,3...n additional levels, the result must be the same.
+
+List of interger list was needed to store all valid path. After transversal execution, some calculations are made returning a tuple (maxSum, stringPath) where maxSum is calculated on each item and the maximum of them is taken later including a path in string format.
